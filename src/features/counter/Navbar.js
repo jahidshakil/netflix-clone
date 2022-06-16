@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  window.onscroll = () => {
+    setIsScrolled(window.pageYOffset === 0 ? false : true);
+    return () => (window.onscroll = null);
+  }
+
   return (
-      <div className='nav nav-bar'>
+    <div className={isScrolled ? "nav-black" : 'nav'}>
           <nav className='nav-contents'>
           <img className='nav-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png' alt='' />
           <img className='nav-avatar' src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' alt=''/>

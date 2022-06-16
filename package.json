@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
     "cra-template-redux": "2.0.0",
     "firebase": "^9.8.2",
     "react": "^18.1.0",
