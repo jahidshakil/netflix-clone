@@ -8,7 +8,9 @@
 
 .banner-contents{
     margin-left: 30px;
-    padding: 140px;
+    padding-top: 230px;
+    padding-bottom: 50px;
+    padding-left: 100px;
     height: 190px;
 
 }
@@ -16,7 +18,6 @@
 .banner-title{
     font-size: 3rem;
     font-weight: 800;
-    padding-bottom: 0.3rem;
 }
 
 .banner-description{
@@ -44,6 +45,7 @@
     padding-right: 2rem;
     margin-right: 1rem;
     background-color: rgba(51,51,51,0.5);
+    height: 30px;
 }
 .banner-button:hover{
     color: #000;
