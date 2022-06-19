@@ -12,11 +12,11 @@ const Navbar = () => {
   }
 
   return (
-    <div
-      onClick={()=> navigate("/")}
-      className={isScrolled ? "nav-black" : 'nav'}>
-          <nav className='nav-contents'>
-        <img  className='nav-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png' alt='' />
+    <div className={isScrolled ? "nav-black" : 'nav'}>
+        <nav className='nav-contents'>
+        <img
+          onClick={()=> navigate("/")}
+          className='nav-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png' alt='' />
         
         <img
           onClick={()=>navigate("/profile")}

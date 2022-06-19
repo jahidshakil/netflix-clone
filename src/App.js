@@ -22,11 +22,11 @@ function App() {
         }))
       } else {
         //logged out
-        dispatch(logout)
+        dispatch(logout());
       }
     })
     return unsSubscribe;
-  }, []);
+  }, [dispatch]);
     
     return (
     <div className="App">
@@ -35,11 +35,10 @@ function App() {
             <LoginScreen/>
           ) :
           (
-              <Routes>
-                <Route exact path="/profile" element={<ProfileScreen />}>
-                </Route>
-          <Route exact path="/" element={<HomeScreen/>}>
-          </Route>
+          <Routes>
+            <Route exact path="/profile" element={<ProfileScreen />}/>     
+            <Route exact path="/" element={<HomeScreen/>}/>
+      
         </Routes>
           )
         }
