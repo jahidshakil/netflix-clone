@@ -5,11 +5,11 @@ This application is a clone of Official netflix app. This application has follow
 
 Technologie used:
 1. react redux template
-2. css
-3. firebase
-4. axios(for calling API)
-5. TMDB as API database
-6. 
+2. react hooks
+3. css
+4. firebase
+5. axios(for calling API)
+6. TMDB as API database
 
 ## Available Scripts
 
