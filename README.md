@@ -1,6 +1,15 @@
-# Getting Started with Create React App and Redux
+This application is a clone of Official netflix app. This application has following features:
+1. Firebase authentication
+2. Real time API call from TMDB database
+3. section for diiferent genres
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Technologie used:
+1. react redux template
+2. css
+3. firebase
+4. axios(for calling API)
+5. TMDB as API database
+6. 
 
 ## Available Scripts
 
