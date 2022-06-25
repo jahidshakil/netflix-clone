@@ -11,6 +11,9 @@ Technologie used:
 5. axios(for calling API)
 6. TMDB as API database
 
+
+
+
 Getting Started
 ![Screenshot (165)](https://user-images.githubusercontent.com/73303787/175786061-03d8a56b-97f0-4f9b-b8bc-c6a6f797fa9b.png)
 
@@ -30,7 +33,9 @@ Comtents
 
 ![Screenshot (17)](https://user-images.githubusercontent.com/73303787/175786488-f2a95d8c-664a-4f46-98f7-3e1adfabcdcf.png)
 
+log Out
 
+![Screenshot (161)](https://user-images.githubusercontent.com/73303787/175786598-67989d77-0cb0-466c-b4f1-85fa9f13a822.png)
 
 
 
