@@ -11,6 +11,8 @@ Technologie used:
 5. axios(for calling API)
 6. TMDB as API database
 
+![Screenshot (165)](https://user-images.githubusercontent.com/73303787/175786061-03d8a56b-97f0-4f9b-b8bc-c6a6f797fa9b.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
